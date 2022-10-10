@@ -1,30 +1,23 @@
-Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
-Branch:                  2021.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.5.1 (Build 21G83)
-Darwin version:          21.6.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: YES
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 8012 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/charlespezeshki/Documents/FALL2022/CS491/CastleCrashersClone328
+C:/Users/aaron/Documents/GitHub/CastleCrashersClone328
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64378
-Successfully changed project path to: /Users/charlespezeshki/Documents/FALL2022/CS491/CastleCrashersClone328
-/Users/charlespezeshki/Documents/FALL2022/CS491/CastleCrashersClone328
+50860
+Successfully changed project path to: C:/Users/aaron/Documents/GitHub/CastleCrashersClone328
+C:/Users/aaron/Documents/GitHub/CastleCrashersClone328
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,61 +47,1447 @@ Successfully changed project path to: /Users/charlespezeshki/Documents/FALL2022/
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 179.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 222.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/charlespezeshki/Documents/FALL2022/CS491/CastleCrashersClone328/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aaron/Documents/GitHub/CastleCrashersClone328/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: AMD Radeon Pro 5300M (high power)
-Metal devices available: 2
-0: AMD Radeon Pro 5300M (high power)
-1: Intel(R) UHD Graphics 630 (low power)
-Using device AMD Radeon Pro 5300M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5300M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x2192)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.14.7212
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56985
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000687 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 113.38 ms, found 3 plugins.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006768 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 110.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
+- Completed reload, in  0.934 seconds
 Domain Reload Profiling:
-	ReloadAssembly (945ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (702ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (412ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (474ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (114ms)
+				RefreshPlugins (111ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004909 seconds.
+Registered in 0.007361 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/charlespezeshki/Documents/FALL2022/CS491/CastleCrashersClone328/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/charlespezeshki/Documents/FALL2022/CS491/CastleCrashersClone328/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.511 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1512ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1240ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (660ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (129ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.5 KB). Loaded Objects now: 4525.
+Memory consumption went from 151.3 MB to 151.2 MB.
+Total: 4.066100 ms (FindLiveObjects: 0.374400 ms CreateObjectMapping: 0.295200 ms MarkObjects: 3.291800 ms  DeleteObjects: 0.103200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 248351.238070 seconds.
+  path: Assets/Scenes/PlayerAssets/Player-Asset-Transparent.png
+  artifactKey: Guid(1568cc285f4be452691f22be2a49b5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlayerAssets/Player-Asset-Transparent.png using Guid(1568cc285f4be452691f22be2a49b5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935bca6a9eead6fef9036c1e3dcdfdf4') in 0.132686 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007613 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.947 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1948ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1682ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (601ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (730ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (443ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.8 KB). Loaded Objects now: 4535.
+Memory consumption went from 155.0 MB to 154.9 MB.
+Total: 5.473100 ms (FindLiveObjects: 0.337700 ms CreateObjectMapping: 0.296100 ms MarkObjects: 4.800200 ms  DeleteObjects: 0.037900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007748 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1514ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1142ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.8 KB). Loaded Objects now: 4539.
+Memory consumption went from 155.0 MB to 155.0 MB.
+Total: 3.129400 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 0.253100 ms MarkObjects: 2.501200 ms  DeleteObjects: 0.024600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005771 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1436ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1136ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4542.
+Memory consumption went from 155.0 MB to 155.0 MB.
+Total: 4.044500 ms (FindLiveObjects: 0.458700 ms CreateObjectMapping: 0.320900 ms MarkObjects: 3.225700 ms  DeleteObjects: 0.037900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010185 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.160 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1161ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (848ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4545.
+Memory consumption went from 155.0 MB to 155.0 MB.
+Total: 3.277300 ms (FindLiveObjects: 0.341100 ms CreateObjectMapping: 0.252800 ms MarkObjects: 2.658400 ms  DeleteObjects: 0.024100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 794.687040 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png
+  artifactKey: Guid(207ee8102dd4143d288186ef0be518ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Capsule.png using Guid(207ee8102dd4143d288186ef0be518ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dbb858d3356c2333886b26f0eb9247') in 0.148517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png
+  artifactKey: Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Circle.png using Guid(a86470a33a6bf42c4b3595704624658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b63ad55b51b7498157d4acd817ed49b') in 0.059794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png
+  artifactKey: Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/IsometricDiamond.png using Guid(19fb86013d8c24d6cb8410c0aadf30fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46da4094ae51b4ac80d0aae982c39d06') in 0.047847 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1905ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1651ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (525ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (766ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (481ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4557.
+Memory consumption went from 155.0 MB to 155.0 MB.
+Total: 8.652400 ms (FindLiveObjects: 1.452200 ms CreateObjectMapping: 0.704500 ms MarkObjects: 6.268400 ms  DeleteObjects: 0.222000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 112.837529 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/asteroids@2x.png
+  artifactKey: Guid(aab3b16d96cbe4e35b53bbd1ef9b4307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/asteroids@2x.png using Guid(aab3b16d96cbe4e35b53bbd1ef9b4307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c19da1fecf714e289018b31e99c41f') in 0.351581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/desert@2x.png
+  artifactKey: Guid(3e09e75f5c65e4a278472c7f2acd3f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/desert@2x.png using Guid(3e09e75f5c65e4a278472c7f2acd3f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02eda64e9c50ac6da4e3bd7d1ffd6c34') in 0.284122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_house_01@2x.png
+  artifactKey: Guid(20b0da823eeda45d28e3d253b00d7af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_house_01@2x.png using Guid(20b0da823eeda45d28e3d253b00d7af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd330c957e928eda8a8367965d83156') in 0.070176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.775214 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_house_02@2x.png
+  artifactKey: Guid(df39c7fbeb0344930b9de3d1296b0b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_house_02@2x.png using Guid(df39c7fbeb0344930b9de3d1296b0b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919db8661bc57a254be5c633085c8e11') in 0.042191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.457781 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_house_03@2x.png
+  artifactKey: Guid(b9c51511471414107a80f36f37f5a03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_house_03@2x.png using Guid(b9c51511471414107a80f36f37f5a03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61db205f990838346632a932b2b860ed') in 0.056911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_tower_01@2x.png
+  artifactKey: Guid(3817330cee42b456cb3d1153a24feedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_tower_01@2x.png using Guid(3817330cee42b456cb3d1153a24feedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20703697b35ce658a56adde8ae2f790') in 0.067939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451124 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_tower_02@2x.png
+  artifactKey: Guid(15d870d0432944e4bb2a2cf2b07f37f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_tower_02@2x.png using Guid(15d870d0432944e4bb2a2cf2b07f37f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511d897a0da9cce933630dba3e5a4ad8') in 0.049450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_tower_03@2x.png
+  artifactKey: Guid(7507756fda150405a9e2b4bdb8013ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_tower_03@2x.png using Guid(7507756fda150405a9e2b4bdb8013ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890b057b3d6d33158f177ca50864de38') in 0.088790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_tower_04@2x.png
+  artifactKey: Guid(c7608ac626926407899dde7f97de0bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_tower_04@2x.png using Guid(c7608ac626926407899dde7f97de0bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ebbb0e54a939d64885a86a4fa899f4') in 0.093810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096296 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_wall_02@2x.png
+  artifactKey: Guid(e75d8dc0f88a649c59acf26d655850ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_wall_02@2x.png using Guid(e75d8dc0f88a649c59acf26d655850ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48f368adc7f02d50dc1c7d1611fde3a') in 0.047053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/flames-all.png
+  artifactKey: Guid(04b4360d933dac242b645a2471a0f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/flames-all.png using Guid(04b4360d933dac242b645a2471a0f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8f1fa9e4ff2d16e0dcafa06f2db4f2') in 0.163968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_wall_03@1x.png
+  artifactKey: Guid(e060369caa9e040c0a09453d64e0d26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_wall_03@1x.png using Guid(e060369caa9e040c0a09453d64e0d26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeab84bfb20ce0cf8e9ee5b2f7e9eef4') in 0.057664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_wall_03@2x.png
+  artifactKey: Guid(3634c7d2f8a35489582798b0e5eaf6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Fairy_Castle/fairy_wall_03@2x.png using Guid(3634c7d2f8a35489582798b0e5eaf6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f078aa3e602c4b5f2c5f1fd5fdc7fae') in 0.067462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.532322 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/flames-layer-05-grounds.png
+  artifactKey: Guid(c99b6e5adc2caed4aa42c4781ad70782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/flames-layer-05-grounds.png using Guid(c99b6e5adc2caed4aa42c4781ad70782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abc52d1d3bafffc2f186cfcb1198542') in 0.107129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/floating_islands@1x.png
+  artifactKey: Guid(05d79469b9ebe4733aed004533c639e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/floating_islands@1x.png using Guid(05d79469b9ebe4733aed004533c639e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31ee0cee1ce21d2906b76745759867d') in 0.120349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.367706 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/fog-layer-01-sky.png
+  artifactKey: Guid(486a318563b4dd2469f3e8a8742eeb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/fog-layer-01-sky.png using Guid(486a318563b4dd2469f3e8a8742eeb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1558d7fed6d586085e2b967e9e56cea9') in 0.028508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/fog-layer-02-clouds.png
+  artifactKey: Guid(4d9e8c2046808fc44a99d54415a00c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/fog-layer-02-clouds.png using Guid(4d9e8c2046808fc44a99d54415a00c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7014716dd4a8f7ca0039c0e17d477d1') in 0.115986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/fog-layer-05-fog.png
+  artifactKey: Guid(bbe2f4cacf32ee54c84ad8c5fe069f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/fog-layer-05-fog.png using Guid(bbe2f4cacf32ee54c84ad8c5fe069f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ba14115e68bffd5f493d7735bd6c7f') in 0.136479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.431876 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-all.png
+  artifactKey: Guid(15ef97b0eebb83e43ab9b01591fa9b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-all.png using Guid(15ef97b0eebb83e43ab9b01591fa9b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260f40c49d06b8e549b4f8c766f87bbb') in 0.119714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-layer-03-clouds.png
+  artifactKey: Guid(fcefa0856a5fdce4ebb235e54eab1363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-layer-03-clouds.png using Guid(fcefa0856a5fdce4ebb235e54eab1363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d00a50baa68b4f297bd8c5cea52cbf4') in 0.126108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-layer-02-mountains.png
+  artifactKey: Guid(d0258acad9397d044b6e6cabaf04ef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-layer-02-mountains.png using Guid(d0258acad9397d044b6e6cabaf04ef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3db37acbf9259201d9ffb6fca44d31') in 0.114011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.618066 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-layer-06-ground.png
+  artifactKey: Guid(97b0e8529874b5b44b7fe78f2c96fd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-layer-06-ground.png using Guid(97b0e8529874b5b44b7fe78f2c96fd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72bf7c014aff70576e9e53498cb2ab6') in 0.156847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_tower_02@2x.png
+  artifactKey: Guid(77fef484fecc6469d836be6987e309c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_tower_02@2x.png using Guid(77fef484fecc6469d836be6987e309c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3d305904c285c4ff4139d67ba26a4e') in 0.076132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-layer-07-towers.png
+  artifactKey: Guid(f056a043d5bdb5c43b98cceb94b91aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/frozen-electric-layer-07-towers.png using Guid(f056a043d5bdb5c43b98cceb94b91aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b1401fbdc6afc5422ef38134058550') in 0.098484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_tower_01@2x.png
+  artifactKey: Guid(85083dc7409d64ae6af1864a094caedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_tower_01@2x.png using Guid(85083dc7409d64ae6af1864a094caedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db67b59e8e0497700822f4764802f55') in 0.035945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_tower_04@1x.png
+  artifactKey: Guid(0064ca5040644401285094657ce42103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_tower_04@1x.png using Guid(0064ca5040644401285094657ce42103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5ae60cb45cce26fc27a9769c6c3bbd') in 0.038181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_wall_01@2x.png
+  artifactKey: Guid(f3850d4f5addb459da45348838ad3ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_wall_01@2x.png using Guid(f3850d4f5addb459da45348838ad3ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf53d2210196ef1f0f89d7c4ae1cf0a') in 0.033496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/lava@2x.png
+  artifactKey: Guid(4fe5ed9f52c0d47298a7656c63fa7d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/lava@2x.png using Guid(4fe5ed9f52c0d47298a7656c63fa7d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a0be85d72d4565ed40707cdc3f9d9e') in 0.284709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_tower_04@2x.png
+  artifactKey: Guid(49442130f312a407c91d0b7c7cf68b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_tower_04@2x.png using Guid(49442130f312a407c91d0b7c7cf68b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41355aab8125c801979a1eff07f77cc') in 0.121223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_house_01@1x.png
+  artifactKey: Guid(4ae15fc3c2bd0430ba3686792972e2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_house_01@1x.png using Guid(4ae15fc3c2bd0430ba3686792972e2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b646d5abd9a0d4c9edbf7906c2c63f') in 0.075870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/lava@1x.png
+  artifactKey: Guid(80907bb462b244335800c0309022db53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/lava@1x.png using Guid(80907bb462b244335800c0309022db53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613f9245be4333b88546994055f80ed9') in 0.112115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/grass@1x.png
+  artifactKey: Guid(0b374cd0985884c08bba4cec6faab456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/grass@1x.png using Guid(0b374cd0985884c08bba4cec6faab456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7244af7314f6a529a78fd787c4af5862') in 0.117397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_house_01@2x.png
+  artifactKey: Guid(34624add591f340cfa797f1385a60e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_house_01@2x.png using Guid(34624add591f340cfa797f1385a60e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a20741adff32d6a0ba2d74ae2d2622d') in 0.056845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_house_03@1x.png
+  artifactKey: Guid(b305b03b2cc7f47769a3f9847a75fdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_house_03@1x.png using Guid(b305b03b2cc7f47769a3f9847a75fdba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ab4113eb2d3c1ef751d2dc998de5a0') in 0.056195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_tower_01@1x.png
+  artifactKey: Guid(b2b16206832a5464bbf8b7b6c492e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_tower_01@1x.png using Guid(b2b16206832a5464bbf8b7b6c492e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becd386a52dabca0ad09a65ad69f7bb6') in 0.064037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_wall_03@2x.png
+  artifactKey: Guid(13c5abb846ada4cd4baaf3d6678939de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Medieval_Castle/medieval_wall_03@2x.png using Guid(13c5abb846ada4cd4baaf3d6678939de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79083d4e7617abcba6bf27ff607dad57') in 0.075305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_house_01@2x.png
+  artifactKey: Guid(89388c211ee7b49b98a77909d3f53cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_house_01@2x.png using Guid(89388c211ee7b49b98a77909d3f53cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34000a790e8b63e8c6eb973a639db819') in 0.060367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.812432 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_tower_02@2x.png
+  artifactKey: Guid(69c67743b35d84c53bcd9b92b33d7dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_tower_02@2x.png using Guid(69c67743b35d84c53bcd9b92b33d7dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e85c38fed1af8408b497801538300b') in 0.053922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_tower_04@2x.png
+  artifactKey: Guid(72e1c9b9237754e4d840c968e4a94c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_tower_04@2x.png using Guid(72e1c9b9237754e4d840c968e4a94c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284c941ae4b65064405d2aabc962e2cb') in 0.117704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_wall_01@1x.png
+  artifactKey: Guid(623e096f514ea4c038497e83dd2ec5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_wall_01@1x.png using Guid(623e096f514ea4c038497e83dd2ec5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b322e09540f3a45828058db748dabe') in 0.055611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_wall_02@1x.png
+  artifactKey: Guid(becd8c5281a3e47cc9fbcb3260313b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_wall_02@1x.png using Guid(becd8c5281a3e47cc9fbcb3260313b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bee0be0eef31444c547d74c38b870b8') in 0.055871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039678 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_wall_03@1x.png
+  artifactKey: Guid(2ffa03a8a80a04d608fb8a94bccb4058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Monster_Castle/monster_wall_03@1x.png using Guid(2ffa03a8a80a04d608fb8a94bccb4058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab69d1acdf4c2d8ac74b00d7643191e6') in 0.056855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-04-shadow.png
+  artifactKey: Guid(33d8f8fdc1de3d44882bae688d88281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-04-shadow.png using Guid(33d8f8fdc1de3d44882bae688d88281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0659a138c844c5d6056d0425c9365b6f') in 0.144479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-05-octopus-plants.png
+  artifactKey: Guid(9e6758ff35e25db4c97937fe57c24838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-05-octopus-plants.png using Guid(9e6758ff35e25db4c97937fe57c24838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2cac215bd9d3b29b89bab8a3130507') in 0.166596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_house_02@1x.png
+  artifactKey: Guid(c882f1139588c40c9a829157b862ad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_house_02@1x.png using Guid(c882f1139588c40c9a829157b862ad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754200a32aad8ae23c8e2a83512de132') in 0.094906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_tower_04@2x.png
+  artifactKey: Guid(cb50c765719da4ec2b41e12f633a7f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_tower_04@2x.png using Guid(cb50c765719da4ec2b41e12f633a7f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614addb64108e6cfd7d1d5c78dc96ddf') in 0.102461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_house_01@1x.png
+  artifactKey: Guid(66ca76a787c774e6eb75deea3695ca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_house_01@1x.png using Guid(66ca76a787c774e6eb75deea3695ca45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce82a618d2a455307a473015b01dc433') in 0.052594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/mushrooms@1x.png
+  artifactKey: Guid(70358cf708067449cbbbd87393deed98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/mushrooms@1x.png using Guid(70358cf708067449cbbbd87393deed98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac053fa44a2a44a4ef75aca5419280d') in 0.139990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-03-far.png
+  artifactKey: Guid(54f9d10120d681242869e7732aebdbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-03-far.png using Guid(54f9d10120d681242869e7732aebdbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5d6ce2cb98f55ee3ddab50d34af972') in 0.142850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_tower_02@2x.png
+  artifactKey: Guid(b32fa578790864a678ebba951210c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_tower_02@2x.png using Guid(b32fa578790864a678ebba951210c2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898beea38337b6d22f4efae99beb7a51') in 0.082684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_tower_01@2x.png
+  artifactKey: Guid(ef50e792ad8ab431ab2732a3602bf53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_tower_01@2x.png using Guid(ef50e792ad8ab431ab2732a3602bf53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89b165cc9a14740d3d05532dfbb53b3') in 0.065409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_house_02@2x.png
+  artifactKey: Guid(4cf375dce6551436db9d1571866f2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_house_02@2x.png using Guid(4cf375dce6551436db9d1571866f2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52235e7aa8d078fe7dcb45bd287d934') in 0.069249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_wall_02@2x.png
+  artifactKey: Guid(d34b419fbda7c4d0d9f3d65dc38eac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_wall_02@2x.png using Guid(d34b419fbda7c4d0d9f3d65dc38eac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a22b5c1187e9cd1e7361d8857a1d8b2') in 0.064834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_wall_03@2x.png
+  artifactKey: Guid(253eb6e3e21a742c5bd5616ad9b96e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_wall_03@2x.png using Guid(253eb6e3e21a742c5bd5616ad9b96e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681e835a62b10ea20f67967b352f8ffa') in 0.075017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_house_03@1x.png
+  artifactKey: Guid(f422bdf974bca44538b9f9f49a0989ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_house_03@1x.png using Guid(f422bdf974bca44538b9f9f49a0989ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a72b020b95bb4e50f45a71e47b87da5') in 0.066212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_tower_03@1x.png
+  artifactKey: Guid(84353123ad2a24f4a97fdae23920c3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_tower_03@1x.png using Guid(84353123ad2a24f4a97fdae23920c3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0095b9051a980cc64bb151364afd2a12') in 0.065011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_tower_03@2x.png
+  artifactKey: Guid(f82e4972e414b4235b38be9a1c0662c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_tower_03@2x.png using Guid(f82e4972e414b4235b38be9a1c0662c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5051321e4bf67d6dc0e08330ee9262ea') in 0.091168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_wall_01@1x.png
+  artifactKey: Guid(032f9b40a41b142db844b30a6347aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_wall_01@1x.png using Guid(032f9b40a41b142db844b30a6347aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc0ba57d1f21a2418257bda2eae6df7') in 0.071659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-01-sky.png
+  artifactKey: Guid(3c6566441f2d3bf4eb42b6dce3f656fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-01-sky.png using Guid(3c6566441f2d3bf4eb42b6dce3f656fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80449899de53c0faabcb6eef7e95d7c8') in 0.059116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/night@2x.png
+  artifactKey: Guid(9efd89ec7ad3c49ba9fc9afe9e417245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/night@2x.png using Guid(9efd89ec7ad3c49ba9fc9afe9e417245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fa3b285bb8d8ac332226d8f96343e9') in 0.272081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_wall_02@1x.png
+  artifactKey: Guid(4a31049ee1af64ceabb4ac6213dd0a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_wall_02@1x.png using Guid(4a31049ee1af64ceabb4ac6213dd0a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63cd2dd87c8f352f4ae0aeffc8c5be6') in 0.065528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/red-trees-layer-02-clouds.png
+  artifactKey: Guid(2491abd4f32ee0742bf88c65e80d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/red-trees-layer-02-clouds.png using Guid(2491abd4f32ee0742bf88c65e80d8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd4c67ac4cebc250436af6937f9e615') in 0.131570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-06-ground.png
+  artifactKey: Guid(9b649b64494084543aa01431fea7a135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/octopus-layer-06-ground.png using Guid(9b649b64494084543aa01431fea7a135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482abcfb04e253a2ef37b201f43cfdd3') in 0.169322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_house_01@1x.png
+  artifactKey: Guid(e5f7f2e96f124444184f96c186c14bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Orc_Castle/orc_house_01@1x.png using Guid(e5f7f2e96f124444184f96c186c14bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4f990e77c6902398bde13c28b38965') in 0.049511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/mountains@2x.png
+  artifactKey: Guid(4c298244044e54717bf0a4105af7fcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/mountains@2x.png using Guid(4c298244044e54717bf0a4105af7fcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b50ea931d687ddf44be544483a0e0d') in 0.267307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/red-trees-layer-03-mountains.png
+  artifactKey: Guid(78c5e47d40189ad4c95a2763d31e8f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/red-trees-layer-03-mountains.png using Guid(78c5e47d40189ad4c95a2763d31e8f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ab9bcc74995eb996abbb9c4754314f') in 0.108317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_house_03@1x.png
+  artifactKey: Guid(837f2d02264b9410395bbc9695279d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_house_03@1x.png using Guid(837f2d02264b9410395bbc9695279d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b24d7068addce303d25772515e8e30d') in 0.071382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_house_01@2x.png
+  artifactKey: Guid(8c0e5f2366714494abb0fed10b3f6862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_house_01@2x.png using Guid(8c0e5f2366714494abb0fed10b3f6862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e7473ec7e3913be9fda159956c18d7') in 0.051074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_02@1x.png
+  artifactKey: Guid(16ee100fe8b724136aedf6fce9971678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_02@1x.png using Guid(16ee100fe8b724136aedf6fce9971678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bb05683924dffe95ed63ee4e5b6aad') in 0.169211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_wall_03@1x.png
+  artifactKey: Guid(82015c5df12e44dd1930230be72ae79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_wall_03@1x.png using Guid(82015c5df12e44dd1930230be72ae79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43653f967975fe84d4c516bbfef3577') in 0.058834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_house_01@2x.png
+  artifactKey: Guid(6316258b0dce14b87bc4431d50c53850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_house_01@2x.png using Guid(6316258b0dce14b87bc4431d50c53850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f84f7c4255620947c2a117a51e22c2') in 0.073381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_04@2x.png
+  artifactKey: Guid(0fcaabecf36b44c72a65a4e18e80ba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_04@2x.png using Guid(0fcaabecf36b44c72a65a4e18e80ba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5cb40239bfa21f3cfa5d587f5a27c4') in 0.098821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_tower_02@1x.png
+  artifactKey: Guid(582a615e30aba4209b15a3573c3aa78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_tower_02@1x.png using Guid(582a615e30aba4209b15a3573c3aa78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3566e71d62dfb136fab2ad5e522551c6') in 0.059428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_house_02@2x.png
+  artifactKey: Guid(c37653575135248199a48cf5ea8f89e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_house_02@2x.png using Guid(c37653575135248199a48cf5ea8f89e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4941013cda54cc6ee82b7ba27525fcb2') in 0.071832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_wall_02@1x.png
+  artifactKey: Guid(65d32d3c21c3549908fc492443c11b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_wall_02@1x.png using Guid(65d32d3c21c3549908fc492443c11b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46bafd0e2ae723d3251f628e092291f') in 0.057480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_house_01@1x.png
+  artifactKey: Guid(c730929aceb0740409f9d5ef27c0ef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_house_01@1x.png using Guid(c730929aceb0740409f9d5ef27c0ef8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbb43f4e42fd8b4d5ab4a6a9e56604e') in 0.050561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_wall_03@2x.png
+  artifactKey: Guid(1121877dae23f4190815851c9e4b8304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_wall_03@2x.png using Guid(1121877dae23f4190815851c9e4b8304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bdee8538e95d7795a24ec5ef9d2e2c') in 0.078258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_01@1x.png
+  artifactKey: Guid(95d94979138134d95b91b550d923df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_01@1x.png using Guid(95d94979138134d95b91b550d923df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560cf1d671f4b37e970bb3e8afae452e') in 0.049315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/red-trees-layer-05-bushes.png
+  artifactKey: Guid(1332b50bb8a65794baf4c11a420df353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/red-trees-layer-05-bushes.png using Guid(1332b50bb8a65794baf4c11a420df353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec269add301247a21aaf7d8ddcfeaad4') in 0.146353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_house_01@1x.png
+  artifactKey: Guid(f5d4962552c93469baed649272c8738c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_house_01@1x.png using Guid(f5d4962552c93469baed649272c8738c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614920dd5d6004927f0de798adb9902e') in 0.058330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_wall_01@2x.png
+  artifactKey: Guid(cb69bb6be3ee74eb39e7e271a31a51ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_wall_01@2x.png using Guid(cb69bb6be3ee74eb39e7e271a31a51ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdcde0b83fe5aa72f3f192edde8fde8') in 0.049233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_03@1x.png
+  artifactKey: Guid(5a2c656aa690447d59cdc20e6a09ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_03@1x.png using Guid(5a2c656aa690447d59cdc20e6a09ff10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6f1e9a8aff6e1491d5d6d8e6ba0521') in 0.055140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/snow@1x.png
+  artifactKey: Guid(8f6979b34cec34ac2a2c0aa7744f0918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/snow@1x.png using Guid(8f6979b34cec34ac2a2c0aa7744f0918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6560b517917b843107873c5b29c951a2') in 0.129296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_house_03@2x.png
+  artifactKey: Guid(e2ea3116ba2cc4f63a1f5d511ba0859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_house_03@2x.png using Guid(e2ea3116ba2cc4f63a1f5d511ba0859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c818475adeb428bf8098111c9bb32eb') in 0.076515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_wall_01@1x.png
+  artifactKey: Guid(4c443389c580a40e88925d6207b7b204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Space_Castle/space_wall_01@1x.png using Guid(4c443389c580a40e88925d6207b7b204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf778d13637339e30e859c561b0694de') in 0.052569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_house_03@2x.png
+  artifactKey: Guid(14abca7aea6304df1b21013a7e51cb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_house_03@2x.png using Guid(14abca7aea6304df1b21013a7e51cb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de752391efc9dd4f7a0482387c010e2') in 0.068730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_02@2x.png
+  artifactKey: Guid(8a79d2a156c6540b4b07c57ebe0a5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Rich_Castle/rich_tower_02@2x.png using Guid(8a79d2a156c6540b4b07c57ebe0a5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50799ddd54635dfc2c3d0809f19ae9a7') in 0.071685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/mushrooms@2x.png
+  artifactKey: Guid(58487a97cbbba44aba401b05af3b22cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/mushrooms@2x.png using Guid(58487a97cbbba44aba401b05af3b22cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda5f8d94cd2d3aebdc14050ed5dec1d') in 0.270124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-layer-02-clouds.png
+  artifactKey: Guid(9f809bd268e8bd54bae9ea2fe1a0fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-layer-02-clouds.png using Guid(9f809bd268e8bd54bae9ea2fe1a0fa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe1f240db8713714cc23a3f659ae4f1') in 0.123761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/underworld@2x.png
+  artifactKey: Guid(5d675618991e3488a90b625dc5de93ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Backgrounds/underworld@2x.png using Guid(5d675618991e3488a90b625dc5de93ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dafe8b9d7543e03c90ba97d08ad6df0') in 0.279470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-layer-04-shadow.png
+  artifactKey: Guid(31a8befd91127c441b3d3ae4c9211287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-layer-04-shadow.png using Guid(31a8befd91127c441b3d3ae4c9211287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07eada86d242c5d087b8a95a646c28d1') in 0.146728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-layer-05-treasure.png
+  artifactKey: Guid(9e3f3cc1ea70fce46b402f7a94d135af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-layer-05-treasure.png using Guid(9e3f3cc1ea70fce46b402f7a94d135af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd41175a55f0868d711bada386e54a6') in 0.167567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/underwater-all.png
+  artifactKey: Guid(5d997e6c99f89de499ba08d8db1b8cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/underwater-all.png using Guid(5d997e6c99f89de499ba08d8db1b8cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb2511f3e3ac6b05649b960ea5af4e5') in 0.074401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-all.png
+  artifactKey: Guid(a7a2433937412a4429ee62a85383f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-all.png using Guid(a7a2433937412a4429ee62a85383f789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da09ef3f7ffbfbc67530fb736f6f065a') in 0.186369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-layer-03-plants.png
+  artifactKey: Guid(3741e1671579e2540acf6cd5d0468e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Alien planet platformer backgrounds (Volume 2)/Sprites/treasure-layer-03-plants.png using Guid(3741e1671579e2540acf6cd5d0468e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ab0692e1f18641377067bfb93baad3') in 0.155145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_tower_03@1x.png
+  artifactKey: Guid(29141eb11a8a34f1dad1636226d8bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundAssets/Cartoon Castles/Sprites/Oriental_Castle/oriental_tower_03@1x.png using Guid(29141eb11a8a34f1dad1636226d8bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e1bc11e3e056e39626458e656e79b4') in 0.069010 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011026 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.838 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1839ms)
+		BeginReloadAssembly (326ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1308ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (628ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (25.6 KB). Loaded Objects now: 4736.
+Memory consumption went from 155.4 MB to 155.4 MB.
+Total: 3.482400 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.365500 ms MarkObjects: 2.721400 ms  DeleteObjects: 0.033000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008749 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.929 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1931ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1675ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (513ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (772ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (481ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4739.
+Memory consumption went from 155.4 MB to 155.4 MB.
+Total: 9.474700 ms (FindLiveObjects: 1.447200 ms CreateObjectMapping: 0.882600 ms MarkObjects: 7.069000 ms  DeleteObjects: 0.073900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007628 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.429 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1430ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1103ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.5 KB). Loaded Objects now: 4742.
+Memory consumption went from 155.4 MB to 155.4 MB.
+Total: 3.784500 ms (FindLiveObjects: 0.892200 ms CreateObjectMapping: 0.263300 ms MarkObjects: 2.597900 ms  DeleteObjects: 0.030100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2274ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1981ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (661ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (139ms)
+			SetupLoadedEditorAssemblies (849ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (538ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4745.
+Memory consumption went from 155.4 MB to 155.4 MB.
+Total: 8.215200 ms (FindLiveObjects: 0.730300 ms CreateObjectMapping: 0.858100 ms MarkObjects: 6.576500 ms  DeleteObjects: 0.049200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009990 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.678 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1678ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1389ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (508ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (146ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4749.
+Memory consumption went from 155.5 MB to 155.4 MB.
+Total: 4.224700 ms (FindLiveObjects: 0.424100 ms CreateObjectMapping: 0.264000 ms MarkObjects: 3.496500 ms  DeleteObjects: 0.039000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 803.321829 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(0d5278e2439a74e46b50dd522f368c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(0d5278e2439a74e46b50dd522f368c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1817abe1fbd88c51130997ee0781f39a') in 0.044726 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008883 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.615 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1616ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (1236ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (594ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4752.
+Memory consumption went from 155.5 MB to 155.5 MB.
+Total: 4.625700 ms (FindLiveObjects: 0.597800 ms CreateObjectMapping: 0.353100 ms MarkObjects: 3.633300 ms  DeleteObjects: 0.039900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007889 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1194ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4755.
+Memory consumption went from 155.5 MB to 155.5 MB.
+Total: 3.429700 ms (FindLiveObjects: 0.434600 ms CreateObjectMapping: 0.256400 ms MarkObjects: 2.706300 ms  DeleteObjects: 0.031100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009576 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\CastleCrashersClone328\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.761 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1762ms)
+		BeginReloadAssembly (301ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1331ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (528ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (565ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.5 KB). Loaded Objects now: 4758.
+Memory consumption went from 155.5 MB to 155.5 MB.
+Total: 3.682000 ms (FindLiveObjects: 0.477500 ms CreateObjectMapping: 0.319900 ms MarkObjects: 2.852500 ms  DeleteObjects: 0.030900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
