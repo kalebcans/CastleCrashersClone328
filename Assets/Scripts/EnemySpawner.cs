@@ -6,19 +6,24 @@ public class EnemySpawner : MonoBehaviour
 {
     public int maxEnemies;
     public GameObject enemy;
+    public float spawnFrequency;
+
+    private float spawnTimer;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        spawnTimer = spawnFrequency;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (checkEnemyCount() < maxEnemies)
+        spawnTimer -= Time.deltaTime;
+        if (checkEnemyCount() < maxEnemies && spawnTimer <= 0)
         {
             spawnEnemy();
+            spawnTimer = spawnFrequency;
         }
     }
 
