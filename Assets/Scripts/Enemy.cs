@@ -6,8 +6,10 @@ public class Enemy : MonoBehaviour
 {
     public int maxHealth;
 
+    public AudioSource hit;
+    public AudioSource deathsound;
     private bool coroutineRunning;
-    private int health;
+    public int health;
     private string enemyType;
     private Rigidbody2D rigidBody;
     private SpriteRenderer spriteRenderer;
@@ -16,7 +18,6 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         health = maxHealth;
-
         rigidBody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -26,6 +27,11 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(health <= 0)
+        {
+            StartCoroutine(death());
+            
+        }
         // this can be enumerated
         if (!coroutineRunning)
         {
@@ -47,6 +53,28 @@ public class Enemy : MonoBehaviour
 
                     break;
             }
+        }
+    }
+
+    public IEnumerator death()
+    {
+        deathsound.Play();
+        float elapsed = 0f;
+        while (elapsed < 0.5f)
+        {
+            elapsed += Time.deltaTime;
+
+            yield return null;
+        }
+        Destroy(this.gameObject);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "light")
+        {
+            hit.Play();
+            health--;
         }
     }
 
