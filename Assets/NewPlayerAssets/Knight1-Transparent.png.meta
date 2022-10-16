@@ -108,19 +108,586 @@ TextureImporter:
       name: Knight1-Transparent_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 258
+        y: 692
+        width: 111
+        height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d80d4f382e852a4b0800000000000000
-      internalID: -5430680470755684211
+      spriteID: 07f70e78fe816d24eabf43a2eeaa51bb
+      internalID: -758123849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 437
+        width: 112
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9e8a95cadd71a4597c604464fe581a
+      internalID: -2081358307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 312
+        width: 144
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdddae7ac9c6d4342a815ecf00037624
+      internalID: -2141199423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 692
+        width: 120
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb0f4456af147640a2934ce9a63ed78
+      internalID: -411655510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_4
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 701
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af6d0ea1bd252440a340f064e6ea96a
+      internalID: -1949508062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_5
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 696
+        width: 120
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0d16adc0dc087409c1d9b34314e5af
+      internalID: 1796180750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_6
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 692
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87375a659e720e84fac97e8bb32d10d5
+      internalID: -430658351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_7
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 687
+        width: 130
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93aec9f88a40ae64d9c0e8ef4474da97
+      internalID: -742551136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_8
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 682
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede07e596345d204db7827881ecf1cc5
+      internalID: -1853386552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 451
+        width: 139
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee21817aa3193cb489e76947a597c79c
+      internalID: -348983538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_10
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 441
+        width: 101
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ba33f503c7d484eb30b30d1c72c543
+      internalID: -1972533494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_11
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 451
+        width: 106
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f413f7c3be1314eb0af6f801fa6891
+      internalID: -101774349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_12
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 441
+        width: 143
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f496f31cd30064b88a404209a60985
+      internalID: 1098474146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_13
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 441
+        width: 125
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee0b376121a25a4eba88478ace69c34
+      internalID: 1225299613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_14
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 437
+        width: 144
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14fa36602409e14ea8aa3c1b634e969
+      internalID: 592485842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_15
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 312
+        width: 130
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3efff41f82c1c9488a9115051dcb57a
+      internalID: -601804664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_16
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 298
+        width: 143
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd3fac59bc06ac4ca50707898731150
+      internalID: 1368460944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_17
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 298
+        width: 116
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b318f1f2ad5adeb4daebefb0d20c83e9
+      internalID: 10949617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_18
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 298
+        width: 120
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535f62b62e902e743bb3000de2c4f2a7
+      internalID: 1540692634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_19
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 307
+        width: 129
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b30fcaf0d45184485581eb68df9c45
+      internalID: 1522578519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_20
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 312
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6103fd49e1a3ef24088f88358c8fa241
+      internalID: 1174376008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_21
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 817
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6358baa812c4edb42829253b445b3f31
+      internalID: 927453977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 794
+        width: 139
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b377b566312a34e42955f104200720e2
+      internalID: 976557844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 798
+        width: 130
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54914cf02bfd1e44bf330908ee3b35c
+      internalID: 1182865338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_24
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 798
+        width: 139
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c171ca68c8505341ae86daae4bf8fb5
+      internalID: -1779484421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_25
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 784
+        width: 112
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eef8ae62dd13de4ca9a0d6ffdc6eb02
+      internalID: -1096408224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 798
+        width: 121
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3459cf23e468a6b4ab89f8da6906f7b9
+      internalID: 1733006325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight1-Transparent_27
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 798
+        width: 149
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a839873cb183a41a9a5e43ea4295b4
+      internalID: -1336378159
       vertices: []
       indices: 
       edges: []
@@ -128,7 +695,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -136,7 +703,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Knight1-Transparent_0: -5430680470755684211
+      Knight1-Transparent_21: 927453977
+      Knight1-Transparent_25: -1096408224
+      Knight1-Transparent_6: -430658351
+      Knight1-Transparent_8: -1853386552
+      Knight1-Transparent_14: 592485842
+      Knight1-Transparent_18: 1540692634
+      Knight1-Transparent_10: -1972533494
+      Knight1-Transparent_11: -101774349
+      Knight1-Transparent_0: -758123849
+      Knight1-Transparent_24: -1779484421
+      Knight1-Transparent_13: 1225299613
+      Knight1-Transparent_27: -1336378159
+      Knight1-Transparent_17: 10949617
+      Knight1-Transparent_4: -1949508062
+      Knight1-Transparent_9: -348983538
+      Knight1-Transparent_3: -411655510
+      Knight1-Transparent_5: 1796180750
+      Knight1-Transparent_7: -742551136
+      Knight1-Transparent_22: 976557844
+      Knight1-Transparent_16: 1368460944
+      Knight1-Transparent_20: 1174376008
+      Knight1-Transparent_23: 1182865338
+      Knight1-Transparent_2: -2141199423
+      Knight1-Transparent_15: -601804664
+      Knight1-Transparent_12: 1098474146
+      Knight1-Transparent_1: -2081358307
+      Knight1-Transparent_19: 1522578519
+      Knight1-Transparent_26: 1733006325
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

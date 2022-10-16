@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class CastleScript : MonoBehaviour
 {
     public string newScene;
-    private bool clicked = false;
+    private bool clicked = true;
     // Start is called before the first frame update
     void Start()
     {
