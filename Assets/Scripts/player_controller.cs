@@ -9,29 +9,29 @@ public class player_controller : MonoBehaviour
     public GameObject lightAttack;
     public GameObject heavyAttack;
     bool attackDelay = false;
+    public SpriteRenderer sr;
+
+    public float jumpforce = 10.0f;
+    public GameObject ground;
+    public float offset;
         
     void Start()
     {
         m_RigidBody = GetComponent<Rigidbody2D>();
+        offset = (transform.position.y - ground.transform.position.y) + 0.1f;
     }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-            m_RigidBody.velocity = new Vector2(0, movementSpeed);
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            m_RigidBody.velocity = new Vector2(0, -movementSpeed);
-        }
-        else if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A))
         {
             m_RigidBody.velocity = new Vector2(-movementSpeed, 0);
+            sr.flipX = true;
         }
         else if (Input.GetKey(KeyCode.D))
         {
             m_RigidBody.velocity = new Vector2(movementSpeed, 0);
+            sr.flipX = false;
         }
         else
             m_RigidBody.velocity = new Vector2(0, 0);
@@ -41,12 +41,20 @@ public class player_controller : MonoBehaviour
             attackDelay = true;
             StartCoroutine(lightAtk());
         }
-        if(Input.GetKey(KeyCode.K) && !attackDelay)
+
+    }
+
+    void FixedUpdate()
+    {
+        if(transform.position.y - ground.transform.position.y < offset)
         {
-            attackDelay = true;
-            StartCoroutine(heavyAtk());
+            if(Input.GetButtonDown("Jump"))
+            {
+                m_RigidBody.AddForce(new Vector2(0, jumpforce));
+            }
         }
     }
+
     public IEnumerator lightAtk()
     {
         lightAttack.gameObject.SetActive(true);
@@ -68,6 +76,8 @@ public class player_controller : MonoBehaviour
         }
         attackDelay = false;
     }
+
+    /*
     public IEnumerator heavyAtk()
     {
         heavyAttack.gameObject.SetActive(true);
@@ -89,4 +99,5 @@ public class player_controller : MonoBehaviour
         }
         attackDelay = false;
     }
+    */
 }
