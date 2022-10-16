@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: 6b45ccfac7e524781b3dc08ce5e03a16
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight2-Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 807
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0898648fe3287e44e8e49019f9e26e0c
+      internalID: -1497230953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 798
+        width: 134
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388f669f3d28ac5409812256552eaf06
+      internalID: 981831473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_2
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 807
+        width: 121
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf8a254738595145ba864e84f4733d1
+      internalID: 822414835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_3
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 803
+        width: 97
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb81122e546e534eaf8ced9f65ab719
+      internalID: -1716513154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_4
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 807
+        width: 134
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf87f3421cc5efc43ba96f7494c67fba
+      internalID: 210711448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_5
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 807
+        width: 135
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffcbea58ae02594889acb304c3356c3
+      internalID: 899883356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_6
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 812
+        width: 120
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9719d45c21fe30443bf238f464b614d5
+      internalID: 2006926430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 696
+        width: 157
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41a080ae3d629944b12039f46ccf633
+      internalID: -1684297592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_8
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 692
+        width: 130
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63d2f8dd21ddac40b33ff1fda3d0040
+      internalID: -1090083399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 710
+        width: 148
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4053a8d907acb4ab54e84848714db0
+      internalID: 947280465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_10
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 705
+        width: 153
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4d157c9f56682458fc0c1db1f50a41
+      internalID: 47471097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_11
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 715
+        width: 158
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7613563b91d755a47af8b085ec2c2ad0
+      internalID: -1947964233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_12
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 710
+        width: 172
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df313413f4ddec64ab400963c2c777f6
+      internalID: 1714522744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_13
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 719
+        width: 166
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ab81ed6c70b6041aac0f06486233ec
+      internalID: 1586366164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_14
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 441
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae552409f272bc47a00153cbbf23e6a
+      internalID: 463398505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_15
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 460
+        width: 129
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb4bd31a67feed4cac3c74a1ae55328
+      internalID: 941716240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_16
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 460
+        width: 167
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28689bd382655584b8ba3de36eec8357
+      internalID: -340409109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_17
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 460
+        width: 120
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8de4e630879744b817b9cfd9f89c10
+      internalID: -1156956630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_18
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 478
+        width: 139
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f5ff5281d00664182bb2911c1cffe4
+      internalID: 970741947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_19
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 460
+        width: 135
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01f98f92e50aa54a8a414e639f43421
+      internalID: 96577512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_20
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 451
+        width: 106
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f257d8f0e896ee43b06b2ba0ac5cde0
+      internalID: -623315786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_21
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 321
+        width: 153
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb59c34634d57bc4ea40d24e290001dd
+      internalID: -6621477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_22
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 312
+        width: 130
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693059040fb31494f84bc390c36ebc9d
+      internalID: -769081607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_23
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 312
+        width: 93
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0325cda0a4dfe1d429ac77470d3b49c7
+      internalID: 1992588080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_24
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 312
+        width: 121
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788990aad9503114692b687e1ed4fef5
+      internalID: -114554535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_25
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 307
+        width: 135
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb2e25adca3fe44e9289c637b3f578c
+      internalID: 1582764402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_26
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 312
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f8269c5faaedf4484763684b5fea80
+      internalID: 1397953932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight2-Transparent_27
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 307
+        width: 135
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9790aa62362df1b488049322633cb660
+      internalID: 1530993656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Knight2-Transparent_13: 1586366164
+      Knight2-Transparent_16: -340409109
+      Knight2-Transparent_12: 1714522744
+      Knight2-Transparent_24: -114554535
+      Knight2-Transparent_23: 1992588080
+      Knight2-Transparent_5: 899883356
+      Knight2-Transparent_19: 96577512
+      Knight2-Transparent_11: -1947964233
+      Knight2-Transparent_22: -769081607
+      Knight2-Transparent_26: 1397953932
+      Knight2-Transparent_25: 1582764402
+      Knight2-Transparent_18: 970741947
+      Knight2-Transparent_17: -1156956630
+      Knight2-Transparent_8: -1090083399
+      Knight2-Transparent_9: 947280465
+      Knight2-Transparent_14: 463398505
+      Knight2-Transparent_21: -6621477
+      Knight2-Transparent_20: -623315786
+      Knight2-Transparent_4: 210711448
+      Knight2-Transparent_2: 822414835
+      Knight2-Transparent_0: -1497230953
+      Knight2-Transparent_27: 1530993656
+      Knight2-Transparent_7: -1684297592
+      Knight2-Transparent_10: 47471097
+      Knight2-Transparent_1: 981831473
+      Knight2-Transparent_15: 941716240
+      Knight2-Transparent_6: 2006926430
+      Knight2-Transparent_3: -1716513154
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
