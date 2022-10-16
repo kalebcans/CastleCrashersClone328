@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 public class CastleScript : MonoBehaviour
 {
     public string newScene;
-    private bool clicked = true;
+    private bool clicked = false;
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,7 +28,8 @@ public class CastleScript : MonoBehaviour
         }
         else if(other.gameObject.tag == "light")
         {
-            //Animation Play
+            anim.SetTrigger("doorTrigger");
+            clicked = true;
         }
 
     }
