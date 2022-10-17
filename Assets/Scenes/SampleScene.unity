@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 922969001}
   m_Layer: 0
   m_Name: Player(placeHolder)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1373,7 +1373,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299afa04141c0a9478ae9a81efd711e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxEnemies: 5
+  maxEnemies: 3
+  minSpawnDistance: 5
+  maxSpawnDistance: 7
   enemy: {fileID: 4387288107786373756, guid: 0d5278e2439a74e46b50dd522f368c86, type: 3}
   spawnFrequency: 3
 --- !u!4 &1928478525
