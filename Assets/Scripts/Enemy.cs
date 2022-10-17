@@ -14,6 +14,7 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rigidBody;
     private SpriteRenderer spriteRenderer;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +67,7 @@ public class Enemy : MonoBehaviour
 
             yield return null;
         }
+        
         Destroy(this.gameObject);
     }
 

@@ -10,6 +10,7 @@ public class player_controller : MonoBehaviour
     public GameObject heavyAttack;
     bool attackDelay = false;
     public SpriteRenderer sr;
+    public ParticleSystem dust;
 
     public float jumpforce = 10.0f;
     public GameObject ground;
@@ -26,12 +27,22 @@ public class player_controller : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             m_RigidBody.velocity = new Vector2(-movementSpeed, 0);
-            sr.flipX = true;
+
+            if(sr.flipX == false)
+            {
+                CreateDust();
+                sr.flipX = true;
+            }
         }
         else if (Input.GetKey(KeyCode.D))
         {
             m_RigidBody.velocity = new Vector2(movementSpeed, 0);
-            sr.flipX = false;
+            
+            if(sr.flipX == true)
+            {
+                CreateDust();
+                sr.flipX = false;
+            }
         }
         else
             m_RigidBody.velocity = new Vector2(0, 0);
@@ -100,4 +111,9 @@ public class player_controller : MonoBehaviour
         attackDelay = false;
     }
     */
+
+    void CreateDust() 
+    {
+        dust.Play();
+    }
 }
