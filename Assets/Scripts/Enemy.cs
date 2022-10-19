@@ -20,6 +20,8 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rigidBody;
     private SpriteRenderer spriteRenderer;
 
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,7 @@ public class Enemy : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         GameObject[] spawnedAttacks = GameObject.FindGameObjectsWithTag("basicEnemyAttack");
         basicEnemyAttack = spawnedAttacks[spawnedAttacks.Length - 1];
+        anim = gameObject.GetComponent<Animator>();
         basicEnemyAttack.SetActive(false);
 
         // todo: random number generator for enemy type?
@@ -39,7 +42,10 @@ public class Enemy : MonoBehaviour
     {
         if (health <= 0)
         {
+            anim.Play("EnemyDeath");
+            deathsound.Play();
             StartCoroutine(death());
+            
         }
 
         if (!coroutineRunning)
@@ -51,6 +57,7 @@ public class Enemy : MonoBehaviour
             {
                 // attack
                 StartCoroutine(attack());
+                anim.Play("EnemyAttack");
             }
             else
             {
@@ -66,9 +73,8 @@ public class Enemy : MonoBehaviour
         // stop
         rigidBody.velocity = Vector2.zero;
 
-        deathsound.Play();
         float elapsed = 0f;
-        while (elapsed < 0.5f)
+        while (elapsed < 1.0f)
         {
             elapsed += Time.deltaTime;
 
@@ -158,12 +164,14 @@ public class Enemy : MonoBehaviour
                     // move right
                     spriteRenderer.flipX = false;
                     rigidBody.velocity = Vector2.right;
+                    anim.Play("EnemyWalk");
                 }
                 else
                 {
                     // move left
                     spriteRenderer.flipX = true;
                     rigidBody.velocity = Vector2.left;
+                    anim.Play("EnemyWalk");
                 }
 
                 break;
