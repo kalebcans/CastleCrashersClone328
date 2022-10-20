@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CastleScript : MonoBehaviour
+public class CastleController : MonoBehaviour
 {
     public string newScene;
     private bool clicked = false;
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,16 +20,16 @@ public class CastleScript : MonoBehaviour
         
     }
 
-     void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "light" && clicked == true)
+        if(other.gameObject.tag == "light" && clicked ==true)
         {
             SceneManager.LoadScene(newScene);
         }
-        else if(other.gameObject.tag == "light")
+        if (other.gameObject.tag == "light")
         {
-            //Animation Play
+            anim.SetTrigger("doorTrigger");
+            clicked = true;
         }
-
     }
 }

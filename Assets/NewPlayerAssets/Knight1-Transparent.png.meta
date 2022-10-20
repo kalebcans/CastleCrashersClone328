@@ -108,10 +108,10 @@ TextureImporter:
       name: Knight1-Transparent_0
       rect:
         serializedVersion: 2
-        x: 258
-        y: 692
-        width: 111
-        height: 111
+        x: 265
+        y: 700
+        width: 150
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,14 +150,23 @@ TextureImporter:
       name: Knight1-Transparent_2
       rect:
         serializedVersion: 2
-        x: 411
-        y: 312
-        width: 144
+        x: 435
+        y: 320
+        width: 170
         height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 67, y: -22.5}
+        - {x: 49, y: -64.5}
+        - {x: -83, y: -64.5}
+        - {x: -84, y: -24.5}
+        - {x: -71, y: -12.5}
+        - {x: -66, y: 59.5}
+        - {x: 2, y: 47.5}
+        - {x: 85, y: 15.5}
+        - {x: 85, y: 2.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -171,10 +180,10 @@ TextureImporter:
       name: Knight1-Transparent_3
       rect:
         serializedVersion: 2
-        x: 425
-        y: 692
-        width: 120
-        height: 115
+        x: 430
+        y: 700
+        width: 150
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,9 +202,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 583
-        y: 701
-        width: 120
-        height: 116
+        y: 700
+        width: 150
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,9 +223,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 731
-        y: 696
-        width: 120
-        height: 125
+        y: 700
+        width: 150
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,9 +244,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 888
-        y: 692
-        width: 130
-        height: 111
+        y: 700
+        width: 150
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,9 +265,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1046
-        y: 687
-        width: 130
-        height: 120
+        y: 700
+        width: 150
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,9 +286,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1213
-        y: 682
-        width: 129
-        height: 130
+        y: 700
+        width: 150
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,14 +432,21 @@ TextureImporter:
       name: Knight1-Transparent_15
       rect:
         serializedVersion: 2
-        x: 267
-        y: 312
-        width: 130
+        x: 275
+        y: 320
+        width: 175
         height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 83.5, y: -9.5}
+        - {x: 71.5, y: -17.5}
+        - {x: 71.5, y: -53.5}
+        - {x: -87.5, y: -57.5}
+        - {x: -87.5, y: 57.5}
+        - {x: 47.5, y: 57.5}
+        - {x: 86.5, y: -2.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -444,14 +460,24 @@ TextureImporter:
       name: Knight1-Transparent_16
       rect:
         serializedVersion: 2
-        x: 583
-        y: 298
-        width: 143
+        x: 590
+        y: 320
+        width: 155
         height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -55.5, y: -60.5}
+        - {x: -74.5, y: -36.5}
+        - {x: -75.5, y: -14.5}
+        - {x: -61.5, y: 9.5}
+        - {x: -69.5, y: 48.5}
+        - {x: -13.5, y: 52.5}
+        - {x: 58.5, y: 31.5}
+        - {x: 77.5, y: 19.5}
+        - {x: 63.5, y: 0.5}
+        - {x: 62.5, y: -62.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -465,14 +491,21 @@ TextureImporter:
       name: Knight1-Transparent_17
       rect:
         serializedVersion: 2
-        x: 749
-        y: 298
-        width: 116
+        x: 736
+        y: 320
+        width: 151
         height: 129
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 20.5, y: -59.5}
+        - {x: -75.5, y: -59.5}
+        - {x: -73.67975, y: -5.3486023}
+        - {x: -56.5, y: 17.5}
+        - {x: -48.5, y: 59.5}
+        - {x: 75.5, y: 52.5}
+        - {x: 69.5, y: 1.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -486,14 +519,19 @@ TextureImporter:
       name: Knight1-Transparent_18
       rect:
         serializedVersion: 2
-        x: 893
-        y: 298
-        width: 120
+        x: 885
+        y: 320
+        width: 150
         height: 134
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -72, y: -64}
+        - {x: -74, y: -11}
+        - {x: -65, y: 54}
+        - {x: 59, y: 51}
+        - {x: 59, y: -63}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -508,8 +546,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1037
-        y: 307
-        width: 129
+        y: 320
+        width: 138
         height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -529,9 +567,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1194
-        y: 312
-        width: 130
-        height: 111
+        y: 320
+        width: 168
+        height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,6 +730,170 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Death1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 25
+        width: 169
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1811be8f335da3749ae17c0126efbf4c
+      internalID: -1772098143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 25
+        width: 157
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f1f5f5ad131f14badac2f6ee905f98
+      internalID: 2026133811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death3
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 25
+        width: 155
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -77.5, y: -73}
+        - {x: -77.5, y: 71}
+        - {x: -0.5, y: 58}
+        - {x: 77.5, y: -14}
+        - {x: 77.5, y: -62}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460028f6fd62b6b41a9a338835854ff6
+      internalID: 115344581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death4
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 25
+        width: 167
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.5, y: -62}
+        - {x: -65.88263, y: -27.390213}
+        - {x: -83.5, y: -1}
+        - {x: -83.5, y: 53}
+        - {x: 33.5, y: 45}
+        - {x: 81.5, y: -27}
+        - {x: 83.5, y: -67}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce51fbc237b77640b40b83baaa8e04b
+      internalID: 261391398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death5
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 25
+        width: 174
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: -69}
+        - {x: -84.23749, y: -28.585457}
+        - {x: -87, y: 46}
+        - {x: 85, y: 48}
+        - {x: 87, y: -70}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a37bee64d207644865a69a3db3cacf
+      internalID: 1443561361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death6
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 25
+        width: 178
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daeeb4a192d2c345bd8d4d030678776
+      internalID: 1549993955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death7
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 25
+        width: 177
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c5eeaa97a9ade41b5931c2f317905d
+      internalID: 19405602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -709,16 +911,23 @@ TextureImporter:
       Knight1-Transparent_8: -1853386552
       Knight1-Transparent_14: 592485842
       Knight1-Transparent_18: 1540692634
+      Death4: 261391398
+      Death7: 19405602
       Knight1-Transparent_10: -1972533494
       Knight1-Transparent_11: -101774349
+      Death1: -1772098143
       Knight1-Transparent_0: -758123849
+      Death2: 2026133811
       Knight1-Transparent_24: -1779484421
+      Death5: 1443561361
       Knight1-Transparent_13: 1225299613
       Knight1-Transparent_27: -1336378159
       Knight1-Transparent_17: 10949617
       Knight1-Transparent_4: -1949508062
       Knight1-Transparent_9: -348983538
+      Death6: 1549993955
       Knight1-Transparent_3: -411655510
+      Death3: 115344581
       Knight1-Transparent_5: 1796180750
       Knight1-Transparent_7: -742551136
       Knight1-Transparent_22: 976557844

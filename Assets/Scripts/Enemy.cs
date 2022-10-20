@@ -37,11 +37,11 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(health <= 0)
+        if (health <= 0)
         {
             StartCoroutine(death());
         }
-        
+
         if (!coroutineRunning)
         {
             Vector2 playerPosition = player.GetComponent<Rigidbody2D>().position;
@@ -78,7 +78,9 @@ public class Enemy : MonoBehaviour
         coroutineRunning = false;
     }
 
-    IEnumerator attack ()
+
+    IEnumerator attack()
+
     {
         coroutineRunning = true;
 
@@ -111,14 +113,14 @@ public class Enemy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "light")
+        if (other.gameObject.tag == "light")
         {
             hit.Play();
             health--;
         }
     }
 
-    IEnumerator move (char direction)
+    IEnumerator move(char direction)
     {
         coroutineRunning = true;
 
@@ -165,7 +167,9 @@ public class Enemy : MonoBehaviour
                 break;
         }
 
-        yield return new WaitForSecondsRealtime (coroutineRefresh);
+
+        yield return new WaitForSecondsRealtime(coroutineRefresh);
+
 
         coroutineRunning = false;
     }
