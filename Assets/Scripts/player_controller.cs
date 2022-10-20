@@ -14,6 +14,10 @@ public class player_controller : MonoBehaviour
     public bool dead = false;
     public Sprite deadSprite;
     public DialogueTrigger deathDialogue;
+    public DialogueTrigger castleUnlockedDialogue;
+    public DialogueTrigger startDialogue;
+    public int killCount = 0;
+    public int killGoal;
 
     public AudioSource hit;
     public AudioSource deathsound;
@@ -29,6 +33,7 @@ public class player_controller : MonoBehaviour
         m_RigidBody = GetComponent<Rigidbody2D>();
         offset = (transform.position.y - ground.transform.position.y) + 0.1f;
         anim = gameObject.GetComponent<Animator>();
+        startDialogue.TriggerDialogue();
     }
     // Update is called once per frame
     void Update()
@@ -72,6 +77,9 @@ public class player_controller : MonoBehaviour
             StartCoroutine(lightAtk());
             anim.Play("Full_Attack");
         }
+        if(killCount == killGoal){
+            castleUnlockedDialogue.TriggerDialogue();
+        }
 
     }
 
@@ -99,14 +107,18 @@ public class player_controller : MonoBehaviour
     {
         dust.Play();
     }
+    void killIncrement()
+    {
+        killCount++;
+    }
 
     public IEnumerator death()
     {
         // stop
         m_RigidBody.velocity = Vector2.zero;
         anim.Play("Death");
-        deathsound.Play();
         deathDialogue.TriggerDialogue();
+        deathsound.Play();
         float elapsed = 0f;
         while (elapsed < 0.5f)
         {

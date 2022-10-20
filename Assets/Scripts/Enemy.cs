@@ -62,6 +62,7 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator death()
     {
+        
         // stop
         rigidBody.velocity = Vector2.zero;
 
@@ -73,6 +74,7 @@ public class Enemy : MonoBehaviour
 
             yield return null;
         }
+
         Destroy(this.gameObject);
 
         coroutineRunning = false;
