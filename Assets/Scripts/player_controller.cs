@@ -7,7 +7,6 @@ public class player_controller : MonoBehaviour
     public float movementSpeed = 5.0f;
     public Rigidbody2D m_RigidBody;
     public GameObject lightAttack;
-    public GameObject heavyAttack;
     bool attackDelay = false;
     public SpriteRenderer sr;
     public ParticleSystem dust;
@@ -35,8 +34,7 @@ public class player_controller : MonoBehaviour
     {
         if (hp <= 0 && !dead)
         {
-            StartCoroutine(death());
-            
+            StartCoroutine(death());     
         }
         if(dead)
         {
@@ -71,7 +69,7 @@ public class player_controller : MonoBehaviour
         {
             attackDelay = true;
             StartCoroutine(lightAtk());
-            anim.Play("LightAttack");
+            anim.Play("Full_Attack");
         }
 
     }

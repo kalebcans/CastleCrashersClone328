@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Camera_Controller : MonoBehaviour
 {
-    public int start;
-    public int end;
+    public float start;
+    public float end;
     public float y;
     public GameObject player;
     // Start is called before the first frame update
