@@ -13,6 +13,7 @@ public class player_controller : MonoBehaviour
     public int hp;
     public bool dead = false;
     public Sprite deadSprite;
+    public DialogueTrigger deathDialogue;
 
     public AudioSource hit;
     public AudioSource deathsound;
@@ -105,6 +106,7 @@ public class player_controller : MonoBehaviour
         m_RigidBody.velocity = Vector2.zero;
         anim.Play("Death");
         deathsound.Play();
+        deathDialogue.TriggerDialogue();
         float elapsed = 0f;
         while (elapsed < 0.5f)
         {
