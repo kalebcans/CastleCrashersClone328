@@ -78,7 +78,9 @@ public class Enemy : MonoBehaviour
         coroutineRunning = false;
     }
 
+
     IEnumerator attack()
+
     {
         coroutineRunning = true;
 
@@ -165,7 +167,9 @@ public class Enemy : MonoBehaviour
                 break;
         }
 
+
         yield return new WaitForSecondsRealtime(coroutineRefresh);
+
 
         coroutineRunning = false;
     }

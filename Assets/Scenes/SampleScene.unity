@@ -6415,11 +6415,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 299afa04141c0a9478ae9a81efd711e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
   totalEnemies: 10
   maxEnemies: 5
   minSpawnDistance: 5
   maxSpawnDistance: 7
   enemy: {fileID: 4387288107786373756, guid: 132def3471c2a134689daca50b80c8ea, type: 3}
+
   spawnFrequency: 3
   player: {fileID: 0}
 --- !u!4 &1928478525
