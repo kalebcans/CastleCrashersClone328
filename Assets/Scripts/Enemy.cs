@@ -81,6 +81,7 @@ public class Enemy : MonoBehaviour
             yield return null;
         }
 
+        player.GetComponent<player_controller>().killCount++;
         Destroy(this.gameObject);
 
         coroutineRunning = false;

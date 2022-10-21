@@ -16,6 +16,7 @@ public class player_controller : MonoBehaviour
     public DialogueTrigger deathDialogue;
     public DialogueTrigger castleUnlockedDialogue;
     public DialogueTrigger startDialogue;
+    public bool called = false;
     public int killCount = 0;
     public int killGoal;
 
@@ -77,9 +78,6 @@ public class player_controller : MonoBehaviour
             StartCoroutine(lightAtk());
             anim.Play("Full_Attack");
         }
-        if(killCount == killGoal){
-            castleUnlockedDialogue.TriggerDialogue();
-        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -101,14 +99,14 @@ public class player_controller : MonoBehaviour
                 anim.Play("Jump");
             }
         }
+        if(killCount == killGoal && called == false){
+            called = true;
+            castleUnlockedDialogue.TriggerDialogue();
+        }
     }
     void CreateDust()
     {
         dust.Play();
-    }
-    void killIncrement()
-    {
-        killCount++;
     }
 
     public IEnumerator death()

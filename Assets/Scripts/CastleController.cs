@@ -8,9 +8,11 @@ public class CastleController : MonoBehaviour
     public string newScene;
     private bool clicked = false;
     public Animator anim;
+    private GameObject player;
     // Start is called before the first frame update
     void Start()
     {
+    player = GameObject.FindGameObjectWithTag("Player");
         
     }
 
@@ -26,7 +28,7 @@ public class CastleController : MonoBehaviour
         {
             SceneManager.LoadScene(newScene);
         }
-        if (other.gameObject.tag == "light")
+        if (other.gameObject.tag == "light" && player.GetComponent<player_controller>().killCount > player.GetComponent<player_controller>().killGoal)
         {
             anim.SetTrigger("doorTrigger");
             clicked = true;

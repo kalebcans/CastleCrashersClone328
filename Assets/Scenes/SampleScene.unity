@@ -5900,8 +5900,9 @@ MonoBehaviour:
   deathDialogue: {fileID: 1681267690}
   castleUnlockedDialogue: {fileID: 1164102344}
   startDialogue: {fileID: 980988926}
+  called: 0
   killCount: 0
-  killGoal: 1
+  killGoal: 2
   hit: {fileID: 922969003}
   deathsound: {fileID: 922969002}
   jumpforce: 3000
@@ -6566,7 +6567,7 @@ MonoBehaviour:
   dialogue:
     name: Knight 1
     sentences:
-    - 'CastleUnlocked dialogue goes here
+    - 'You have killed enough aliens. Please enter the castle to save the princess!
 
 '
 --- !u!114 &1164102345
