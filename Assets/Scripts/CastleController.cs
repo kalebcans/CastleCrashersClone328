@@ -28,7 +28,7 @@ public class CastleController : MonoBehaviour
         {
             SceneManager.LoadScene(newScene);
         }
-        if (other.gameObject.tag == "light" && player.GetComponent<player_controller>().killCount > player.GetComponent<player_controller>().killGoal)
+        if (other.gameObject.tag == "light" && player.GetComponent<player_controller>().killCount >= player.GetComponent<player_controller>().killGoal)
         {
             anim.SetTrigger("doorTrigger");
             clicked = true;
