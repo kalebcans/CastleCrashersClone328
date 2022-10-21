@@ -9,6 +9,8 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public Animator animator;
+    private GameObject player;
+    private GameObject enemySpawner;
     // Start is called before the first frame update
     void Start()
     {
@@ -54,9 +56,18 @@ public class DialogueManager : MonoBehaviour
     }
     public void EndDialogue()
     {
+        ResumeGame();
         animator.SetBool("IsOpen", false);
     }
 
     // Update is called once per frame
+    void PauseGame ()
+    {
+        Time.timeScale = 0;
+    }
+    void ResumeGame ()
+    {
+        Time.timeScale = 1;
+    }
 
 }

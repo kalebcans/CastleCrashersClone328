@@ -80,7 +80,6 @@ public class player_controller : MonoBehaviour
         if(killCount == killGoal){
             castleUnlockedDialogue.TriggerDialogue();
         }
-
     }
 
     void OnTriggerEnter2D(Collider2D other)
