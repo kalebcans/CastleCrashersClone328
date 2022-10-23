@@ -19,6 +19,7 @@ public class player_controller : MonoBehaviour
     public bool called = false;
     public int killCount = 0;
     public int killGoal;
+    public float damageCooldown = 2.0f;
 
     public AudioSource hit;
     public AudioSource deathsound;
@@ -29,12 +30,15 @@ public class player_controller : MonoBehaviour
 
     public Animator anim;
 
+    private bool invincible;
+
     void Start()
     {
         m_RigidBody = GetComponent<Rigidbody2D>();
         offset = (transform.position.y - ground.transform.position.y) + 0.1f;
         anim = gameObject.GetComponent<Animator>();
         startDialogue.TriggerDialogue();
+        invincible = false;
     }
     // Update is called once per frame
     void Update()
@@ -80,12 +84,32 @@ public class player_controller : MonoBehaviour
         }
     }
 
+    IEnumerator invincibility (float seconds)
+    {
+        invincible = true;
+
+        float timer = seconds;
+
+        while (timer > 0)
+        {
+            timer -= Time.deltaTime;
+
+            yield return null;
+        }
+
+        invincible = false;
+
+        yield return null;
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "basicEnemyAttack")
+        if (other.gameObject.tag == "basicEnemyAttack" && invincible == false)
         {
             hit.Play();
             hp--;
+
+            StartCoroutine(invincibility(damageCooldown));
         }
     }
 
