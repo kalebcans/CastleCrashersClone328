@@ -11,6 +11,8 @@ public class EnemySpawner : MonoBehaviour
     public int maxSpawnDistance = 7;
 
     public GameObject enemy;
+    public GameObject tougherEnemy;
+    public GameObject toughestEnemy;
     public float spawnFrequency;
 
     private int enemiesSpawned;
@@ -26,7 +28,6 @@ public class EnemySpawner : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
 
         enemiesSpawned = 0;
-
     }
 
     // Update is called once per frame
@@ -53,7 +54,28 @@ public class EnemySpawner : MonoBehaviour
 
     void spawnEnemy()
     {
-        GameObject newEnemy = Instantiate(enemy);
+        GameObject newEnemy;
+
+        switch (Random.Range (0, 2))
+        {
+            default:
+                // spawn normal enemy
+                newEnemy = Instantiate(enemy);
+
+                break;
+
+            case 1:
+                // spawn tougher enemy
+                newEnemy = Instantiate(tougherEnemy);
+
+                break;
+
+            case 2:
+                // spawn toughest enemy
+                newEnemy = Instantiate(toughestEnemy);
+
+                break;
+        }
 
         newEnemy.transform.position = player.transform.position;
 
