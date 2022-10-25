@@ -99,7 +99,7 @@ public class Enemy : MonoBehaviour
         basicEnemyAttack.SetActive(true);
 
         float timer = 0;
-        float attackTime = 0.2f;
+        float attackTime = 0.5f;
 
         while (timer < attackTime)
         {

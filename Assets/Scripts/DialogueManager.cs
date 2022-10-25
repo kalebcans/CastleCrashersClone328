@@ -11,6 +11,8 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
     private GameObject player;
     private GameObject enemySpawner;
+    public bool animationFinished = false;
+    public bool coroutineRun;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,15 +23,28 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("IsOpen", true);
         //Debug.Log("Starting conversation with " + dialogue.name);
-        sentences.Clear();
+        // float elapsed = 0;
+        // while (elapsed < 3.0f)
+        // {
+        //     elapsed += Time.deltaTime;
 
+        //     // yield return null;
+        // }
+        if(!coroutineRun)
+        {
+            coroutineRun = true;
+            StartCoroutine(wait());
+        }
+        // sentences.Clear();d
         nameText.text = dialogue.name;
+
 
         foreach (string sentence in dialogue.sentences)
         {
-            sentences.Enqueue(sentence);
+        sentences.Enqueue(sentence);
         }
         DisplayNextSentence();
+        
     }
 
     public void DisplayNextSentence()
@@ -52,6 +67,8 @@ public class DialogueManager : MonoBehaviour
             dialogueText.text += letter;
             yield return null;
         }
+        
+        // StartCoroutine(wait());
         PauseGame();
     }
     public void EndDialogue()
@@ -63,8 +80,22 @@ public class DialogueManager : MonoBehaviour
     // Update is called once per frame
     void PauseGame ()
     {
-        Time.timeScale = 0;
+        Time.timeScale = 0.1f;
     }
+
+    public IEnumerator wait()
+    {
+        float elapsed = 0;
+         while (elapsed < 1.0f)
+        {
+            elapsed += Time.deltaTime;
+
+            yield return null;
+        }
+        animationFinished = true;
+        coroutineRun = false;
+    }
+
     void ResumeGame ()
     {
         Time.timeScale = 1;

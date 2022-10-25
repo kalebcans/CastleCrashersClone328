@@ -6033,6 +6033,8 @@ MonoBehaviour:
   nameText: {fileID: 1403221406}
   dialogueText: {fileID: 1351481244}
   animator: {fileID: 1120369784}
+  animationFinished: 0
+  coroutineRun: 0
 --- !u!1 &912707568
 GameObject:
   m_ObjectHideFlags: 0
@@ -6264,7 +6266,14 @@ MonoBehaviour:
   deathDialogue: {fileID: 1681267690}
   castleUnlockedDialogue: {fileID: 1164102344}
   startDialogue: {fileID: 980988926}
+  castleDialogue: {fileID: 0}
+  princessDialogue: {fileID: 0}
+  winText: {fileID: 0}
+  canWinOverall: 0
+  hasPrincessTrigger: 0
   called: 0
+  hasPlayed: 0
+  onFinal: 0
   killCount: 0
   killGoal: 2
   damageCooldown: 2
@@ -6723,15 +6732,14 @@ MonoBehaviour:
   dialogue:
     name: Start
     sentences:
-    - 'Narrator: A villager runs into the knight screaming for help.
-
-'
+    - 'Narrator: Your hear a villagers faint cry screaming for a knights help.'
     - 'Villager: Help! Help! The Princess has been captured! Mr. Knight we need your
       help'
     - 'Knight: The princess has been captured?! Who was it and where did they take
       her?'
-    - "Villager: She was taken by the [insert enemies]\u2019s and trapped in their
-      castle up ahead.\n"
+    - 'Villager: She was taken by the Goblins and trapped in their castle up ahead.
+
+'
     - "Knight: Don\u2019t worry, the princess will be saved no matter the cost!\n"
     - 'Villager: Thank you Mr. Knight, I knew you could save us
 
@@ -7047,7 +7055,7 @@ MonoBehaviour:
   dialogue:
     name: Knight 1
     sentences:
-    - 'You have killed enough aliens. Please enter the castle to save the princess!
+    - 'You have killed enough Goblins. Please enter the castle to save the princess!
 
 '
 --- !u!114 &1164102345
@@ -8043,7 +8051,7 @@ MonoBehaviour:
   dialogue:
     name: Knight 1
     sentences:
-    - Death sentences go here
+    - You have died!
 --- !u!114 &1681267692
 MonoBehaviour:
   m_ObjectHideFlags: 0

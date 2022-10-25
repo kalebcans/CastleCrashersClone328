@@ -16,7 +16,14 @@ public class player_controller : MonoBehaviour
     public DialogueTrigger deathDialogue;
     public DialogueTrigger castleUnlockedDialogue;
     public DialogueTrigger startDialogue;
+    public DialogueTrigger castleDialogue;
+    public DialogueTrigger princessDialogue;
+    public DialogueTrigger winText;
+    public bool canWinOverall = false;
+    public bool hasPrincessTrigger = false;
     public bool called = false;
+    public bool hasPlayed;
+    public bool onFinal;
     public int killCount = 0;
     public int killGoal;
     public float damageCooldown = 2.0f;
@@ -37,7 +44,9 @@ public class player_controller : MonoBehaviour
         m_RigidBody = GetComponent<Rigidbody2D>();
         offset = (transform.position.y - ground.transform.position.y) + 0.1f;
         anim = gameObject.GetComponent<Animator>();
+ 
         startDialogue.TriggerDialogue();
+        
         invincible = false;
     }
     // Update is called once per frame
@@ -111,6 +120,11 @@ public class player_controller : MonoBehaviour
 
             StartCoroutine(invincibility(damageCooldown));
         }
+
+        if(other.gameObject.tag == "Princess" && canWinOverall == true)
+        {
+            winText.TriggerDialogue();
+        }    
     }
 
     void FixedUpdate()
@@ -123,10 +137,23 @@ public class player_controller : MonoBehaviour
                 anim.Play("Jump");
             }
         }
-        if(killCount == killGoal && called == false){
+
+        if(killCount == killGoal && called == false && onFinal == false){
             called = true;
             castleUnlockedDialogue.TriggerDialogue();
         }
+        else if(onFinal == true && hasPlayed == false)
+        {
+            castleDialogue.TriggerDialogue();
+            hasPlayed = true;
+        }
+        else if(killCount == killGoal && onFinal == true && hasPrincessTrigger == false)
+        {
+            princessDialogue.TriggerDialogue();
+            hasPrincessTrigger = true;
+            canWinOverall = true;
+        }
+
     }
     void CreateDust()
     {

@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - light
   - basicEnemyAttack
+  - Princess
   layers:
   - Default
   - TransparentFX
