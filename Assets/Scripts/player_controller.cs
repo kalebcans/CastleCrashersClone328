@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class player_controller : MonoBehaviour
 {
@@ -27,6 +28,10 @@ public class player_controller : MonoBehaviour
     public int killCount = 0;
     public int killGoal;
     public float damageCooldown = 2.0f;
+    public Slider health;
+    public GameObject slider;
+    public GameObject fillLine;
+    public Material flash;
 
     public AudioSource hit;
     public AudioSource deathsound;
@@ -38,12 +43,19 @@ public class player_controller : MonoBehaviour
     public Animator anim;
 
     private bool invincible;
+    private Material originalMaterial;
 
     void Start()
     {
         m_RigidBody = GetComponent<Rigidbody2D>();
         offset = (transform.position.y - ground.transform.position.y) + 0.1f;
         anim = gameObject.GetComponent<Animator>();
+        health.minValue = 0;
+        health.maxValue = hp;
+        health.value = health.maxValue;
+        slider.SetActive(true);
+        fillLine.SetActive(true);
+        originalMaterial = sr.material;
  
         startDialogue.TriggerDialogue();
         
@@ -54,6 +66,8 @@ public class player_controller : MonoBehaviour
     {
         if (hp <= 0 && !dead)
         {
+            fillLine.SetActive(false);
+            slider.SetActive(false);
             StartCoroutine(death());     
         }
         if(dead)
@@ -93,6 +107,15 @@ public class player_controller : MonoBehaviour
         }
     }
 
+    private IEnumerator Flash()
+    {
+        sr.material = flash;
+
+        yield return new WaitForSecondsRealtime(0.6f);
+
+        sr.material = originalMaterial;
+    }
+
     IEnumerator invincibility (float seconds)
     {
         invincible = true;
@@ -116,7 +139,9 @@ public class player_controller : MonoBehaviour
         if (other.gameObject.tag == "basicEnemyAttack" && invincible == false)
         {
             hit.Play();
+            StartCoroutine(Flash());
             hp--;
+            health.value = hp;
 
             StartCoroutine(invincibility(damageCooldown));
         }

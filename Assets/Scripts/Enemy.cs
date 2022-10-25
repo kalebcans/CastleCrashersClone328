@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     public float coroutineRefresh = 1;
     public AudioSource hit;
     public AudioSource deathsound;
+    public Material flash;
 
     private bool coroutineRunning;
     private string enemyType;
@@ -19,6 +20,7 @@ public class Enemy : MonoBehaviour
     private GameObject basicEnemyAttack;
     private Rigidbody2D rigidBody;
     private SpriteRenderer spriteRenderer;
+    private Material originalMaterial;
 
     public Animator anim;
 
@@ -33,6 +35,7 @@ public class Enemy : MonoBehaviour
         basicEnemyAttack = spawnedAttacks[spawnedAttacks.Length - 1];
         anim = gameObject.GetComponent<Animator>();
         basicEnemyAttack.SetActive(false);
+        originalMaterial = spriteRenderer.material;
 
         // todo: random number generator for enemy type?
     }
@@ -125,8 +128,18 @@ public class Enemy : MonoBehaviour
         if (other.gameObject.tag == "light")
         {
             hit.Play();
+            StartCoroutine(Flash());
             health--;
         }
+    }
+
+    private IEnumerator Flash()
+    {
+        spriteRenderer.material = flash;
+
+        yield return new WaitForSecondsRealtime(0.6f);
+
+        spriteRenderer.material = originalMaterial;
     }
 
     IEnumerator move(char direction)

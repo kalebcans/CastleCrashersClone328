@@ -169,6 +169,7 @@ MonoBehaviour:
   coroutineRefresh: 1
   hit: {fileID: 6760950429618975105}
   deathsound: {fileID: 6425890001993526247}
+  flash: {fileID: 2100000, guid: baa435bac0fdd4699b8bb3c4c8be08fb, type: 2}
   anim: {fileID: 0}
 --- !u!95 &1207107923284142331
 Animator:
